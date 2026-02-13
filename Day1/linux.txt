@@ -1,0 +1,75 @@
+Topic: Linux Fundamentals
+
+1. Introduction to DevOps
+DevOps is a combination of Development (Dev) and Operations (Ops). It focuses on collaboration, automation, continuous integration, and faster delivery of software.
+Key Goals of DevOps:
+•	• Faster software delivery
+•	• Improved collaboration between teams
+•	• Automation of processes
+•	• Continuous monitoring and feedback
+2. Linux Basics
+Linux is an open-source operating system widely used in servers, cloud platforms, and DevOps environments.
+Important Linux Commands
+1.	pwd – Displays present working directory
+2.	ls – Lists files and directories
+3.	ls -l – Shows detailed file information
+4.	ls -a – Shows hidden files
+5.	cd – Change directory
+6.	mkdir – Create new directory
+7.	touch – Create empty file
+8.	cp – Copy files
+9.	mv – Move or rename files
+10.	rm – Remove files
+11.	rm -rf – Force delete directory and contents
+12.	cat – Display file content
+13.	nano / vim – Edit files in terminal
+14.	history – Show previously used commands
+15.	clear – Clear terminal screen
+
+
+
+3. Linux vs Windows
+Windows:
+•	• Developed by Microsoft
+•	• GUI based
+•	• Paid license
+•	• Mostly used in personal computers
+Linux:
+•	• Open-source and free
+•	• More secure and stable
+•	• Mostly command-line based
+•	• Preferred in servers and cloud
+4. Virtual Machine (VM)
+A Virtual Machine (VM) is a software-based computer that runs inside another physical computer.
+Why VM is used:
+•	• Run multiple operating systems
+•	• Testing and development
+•	• Safe environment for experiments
+Key Terms:
+•	• Host OS – Main operating system
+•	• Guest OS – OS installed inside VM
+•	• Hypervisor – Software that creates VMs (VMware, VirtualBox)
+5. WSL (Windows Subsystem for Linux)
+WSL allows Linux to run directly inside Windows without installing a full virtual machine.
+Advantages:
+•	• Lightweight
+•	• Faster than VM
+•	• Easy setup
+6. VMware Installation Overview
+Steps Summary:
+16.	1. Create Broadcom account
+17.	2. Download VMware Workstation Pro
+18.	3. Disable Hyper-V and conflicting features
+19.	4. Enable virtualization in BIOS
+20.	5. Install VMware and restart system
+7. Ubuntu Server Installation (Summary)
+•	• Create new virtual machine
+•	• Select Ubuntu ISO file
+•	• Allocate RAM and CPU
+•	• Install Ubuntu Server
+•	• Create user and password
+•	• Enable OpenSSH (optional)
+•	• Reboot and login
+8. System Update Command
+Keep system updated using:
+sudo apt update && sudo apt upgrade -y
