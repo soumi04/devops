@@ -1,0 +1,167 @@
+
+UBUNTU INITIAL CONFIGURATION
+sudo apt update
+sudo apt upgrade -y
+ip a
+
+sudo apt install openssh-server -y
+sudo systemctl start ssh
+sudo systemctl enable ssh
+sudo ufw allow ssh
+sudo ufw reload
+SSH CONNECTION
+ssh username@VM_IP
+hostname
+DOCKER INSTALLATION
+sudo apt install ca-certificates curl -y
+sudo install -m 0755 -d /etc/apt/keyrings
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+sudo chmod a+r /etc/apt/keyrings/docker.asc
+sudo apt update
+sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+sudo systemctl start docker
+sudo systemctl enable docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker --version
+docker ps
+DOCKER PRACTICAL EXECUTION
+git clone https://github.com/jagadeeshkanna97/docker_sample.git
+cd docker_sample
+touch Dockerfile
+docker build -t docker-sample-app .
+docker run -d -p 3000:3000 docker-sample-app
+docker pull nginx
+docker run -d -p 8080:80 nginx
+
+Custom Nginx:
+mkdir mynginx
+cd mynginx
+nano index.html
+docker run -d -p 7070:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+GIT & GITHUB CONFIGURATION
+git --version
+git config --global user.name "VARSHINI1805"
+git config --global user.email "varshinisureshkumar224@gmail.com"
+git config --list
+ssh-keygen -t ed25519 -C "varshinisureshkumar224@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+ssh -T git@github.com
+
+BRANCH MANAGEMENT
+git clone git@github.com:VARSHINI1805/devops.git
+cd devops
+git branch
+git checkout -b day3
+touch day3.txt
+git add .
+git commit -m "Added day3 file"
+git push -u origin day3
+
+MERGE PROCESS
+git checkout main
+git pull origin main
+git merge day3
+git push
+ADD DOCKER PROJECT TO REPOSITORY
+cp -r ~/docker_sample .
+rm -rf docker_sample/.git
+git add .
+git commit -m "Added docker_sample project"
+git push
+
+
+
+
+
+
+varsh@ubs2404vm:~$ history
+    1  hostname
+    2  ssh varsh@192.168.117.128
+    3  ifconfig
+    4  docker ps
+    5  git clone https://github.com/jagadeeshkanna97/docker_sample.git
+    6  ls
+    7  cd newdock/
+    8  cd docker_sample
+    9  ls
+   10  touch Dockerfile
+   11  docker build -t docker-sample-app .
+   12  docker ps
+   13  docker stop <container_id>
+   14  docker ps
+   15  docker run -d -p 3000:3000 docker-sample-app
+   16  docker ps
+   17  docker pull nginx
+   18  docker run -d -p 8080:80 nginx
+   19  mkdir mynginx
+   20  cd mynginx
+   21  nano index.html
+   22  docker run -d -p 8080:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+   23  docker run -d -p 7070:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+   24  git --version
+   25  history
+
+
+
+varsh@ubs2404vm:~/devops$ history
+    1  hostname
+    2  ssh varsh@192.168.117.128
+    3  ifconfig
+    4  docker ps
+    5  git clone https://github.com/jagadeeshkanna97/docker_sample.git
+    6  ls
+    7  cd newdock/
+    8  cd docker_sample
+    9  ls
+   10  touch Dockerfile
+   11  docker build -t docker-sample-app .
+   12  docker ps
+   13  docker stop <container_id>
+   14  docker ps
+   15  docker run -d -p 3000:3000 docker-sample-app
+   16  docker ps
+   17  docker pull nginx
+   18  docker run -d -p 8080:80 nginx
+   19  mkdir mynginx
+   20  cd mynginx
+   21  nano index.html
+   22  docker run -d -p 8080:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+   23  docker run -d -p 7070:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html nginx
+   24  git --version
+   25  history
+   26  git config --global user.name "VARSHINI1805"
+   27  git config --global user.email "varshinisureshkumar224@gmail.com"
+   28  git config --list
+   29  ssh-keygen -t ed25519 -C "varshinisureshkumar224@gmail.com"
+   30  cat ~/.ssh/id_ed25519.pub
+   31  ssh -T git@github.com
+   32  git clone git@github.com:VARSHINI1805/devops.git
+   33  cd devops
+   34  ls 
+   35  ls -a
+   36  git branch
+   37  git checkout -b day3
+   38  git branch
+   39  touch day3.txt
+   40  nano day3.txt
+   41  history
+   42  git add .
+   43  git status
+   44  git pull origin main
+   45  git push
+   46  git push -u origin day3
+   47  git checkout main
+   48  git pull origin main
+   49  git merge day3
+   50  git push
+   51  cd ~/devops
+   52  cp -r ~/docker_sample .
+   53  ls
+   54  git status
+   55  git add .
+   56  rm -rf docker_sample/.git
+   57  git add .
+   58  git status
+   59  git commit -m "Added docker_sample project"
+   60  git push
