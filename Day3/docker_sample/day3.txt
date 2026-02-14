@@ -1,0 +1,103 @@
+========================================
+GIT SSH CONFIGURATION AND BRANCH WORKFLOW
+========================================
+
+Repository: devops
+
+Objective:
+To configure Git with SSH authentication and create a new branch for development work.
+
+----------------------------------------
+Step 1: Git Configuration
+----------------------------------------
+
+Configured Git username and email globally:
+
+git config --global user.name "VARSHINI1805"
+git config --global user.email "varshinisureshkumar224@gmail.com"
+
+Verified configuration using:
+git config --list
+
+Purpose:
+This ensures that all commits are recorded with correct author details.
+
+----------------------------------------
+Step 2: SSH Key Generation
+----------------------------------------
+
+Generated SSH key using:
+
+ssh-keygen -t ed25519 -C "varshinisureshkumar224@gmail.com"
+
+The public key was saved in:
+~/.ssh/id_ed25519.pub
+
+Displayed the public key using:
+cat ~/.ssh/id_ed25519.pub
+
+Added the SSH public key to GitHub under:
+Settings → SSH and GPG Keys
+
+Tested SSH connection using:
+ssh -T git@github.com
+
+Authentication was successful.
+
+Purpose:
+SSH allows secure communication between local Ubuntu system and GitHub without using a password each time.
+
+----------------------------------------
+Step 3: Repository Cloning
+----------------------------------------
+
+Cloned the GitHub repository using SSH:
+
+git clone git@github.com:VARSHINI1805/devops.git
+
+Navigated into repository:
+cd devops
+
+Verified repository contents using:
+ls -a
+
+Confirmed .git directory exists, which indicates it is a Git repository.
+
+----------------------------------------
+Step 4: Branch Creation
+----------------------------------------
+
+Checked existing branches:
+git branch
+
+Created a new branch:
+git checkout -b new-branch
+
+Verified branch switch:
+git branch
+
+The active branch is marked with (*).
+
+----------------------------------------
+Step 5: File Creation and Documentation
+----------------------------------------
+
+Created a new text file:
+
+touch documentation.txt
+nano documentation.txt
+
+Added detailed workflow explanation inside the file.
+
+----------------------------------------
+Conclusion:
+----------------------------------------
+
+Git was successfully configured.
+SSH authentication was set up and tested.
+Repository was cloned securely.
+A new branch was created for independent development.
+Basic branch workflow was practiced successfully.
+
+Status:
+Configuration and branch setup completed successfully.
