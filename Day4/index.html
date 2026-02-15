@@ -1,9 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Day 4</title>
+    <meta charset="UTF-8">
+    <title>Soumya - DevOps Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+            width: 400px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        p {
+            font-size: 16px;
+            margin-bottom: 15px;
+            opacity: 0.9;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #ffd700;
+            color: black;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: white;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0; transform: translateY(30px);}
+            to {opacity: 1; transform: translateY(0);}
+        }
+
+        .footer {
+            margin-top: 20px;
+            font-size: 14px;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
-  <h1>Day 4 Jenkins + Docker</h1>
+
+    <div class="card">
+        <h1>🚀 Hello, I'm Soumya K</h1>
+        <h2>DevOps Engineer in Progress</h2>
+
+        <p>This Docker container is successfully deployed using Jenkins CI/CD Pipeline.</p>
+        <p>Built with ❤️ using Docker, GitHub & Jenkins.</p>
+
+        <a href="#" class="btn">Project Running Successfully</a>
+
+        <div class="footer">
+            © 2026 Soumya K | DevOps Practical
+        </div>
+    </div>
+
 </body>
 </html>
