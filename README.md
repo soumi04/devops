@@ -249,7 +249,7 @@ Step 3: Repository Cloning
 
 Cloned the GitHub repository using SSH:
 
-git clone git@github.com:VARSHINI1805/devops.git
+git clone git@github.com:soumi04/devops.git
 
 Navigated into repository:
 cd devops
@@ -302,17 +302,17 @@ Configuration and branch setup completed successfully.
 📸 OUTPUT SCREENSHOTS
 ------------------------------------------------------------
 
-![](Day3/Screenshot%202026-02-12%20200945.png)
+![]()
 
-![](Day3/Screenshot%202026-02-12%20200952.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 090903.png)
 
-![](Day3/Screenshot%202026-02-12%20201004.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 002317.png)
 
-![](Day3/Screenshot%202026-02-12%20201010.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 002354.png)
 
-![](Day3/Screenshot%202026-02-12%20201018.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 002441.png)
 
-![](Day3/Screenshot%202026-02-12%20201024.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 000526.png)
 
 
 # 🚀 DevOps Day 4 – Jenkins CI/CD with Docker
@@ -366,7 +366,7 @@ Copy the password and open browser:
 http://<server-ip>:8080
 
 Example:
-http://192.168.117.128:8080
+http://192.168.150.129:8080
 
 Install suggested plugins and create admin user.
 
@@ -428,7 +428,7 @@ Create New Item → Pipeline
 Pipeline Configuration:
 
 Repository URL:
-https://github.com/VARSHINI1805/devops.git
+https://github.com/soumi04/devops.git
 
 Branch Specifier:
 */day-4
@@ -461,7 +461,7 @@ Open browser:
 http://<server-ip>:5000
 
 Example:
-http://192.168.117.128:5000
+http://192.168.150.129:5000
 
 ------------------------------------------------------------
 FINAL OUTCOME
@@ -488,19 +488,16 @@ LEARNING OUTCOME
 📸 OUTPUT SCREENSHOTS
 ------------------------------------------------------------
 
-![](Day4/Screenshot%202026-02-13%20111709.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 215256.png)
 
-![](Day4/Screenshot%202026-02-13%20085223.png)
-
-
-![](Day4/Screenshot%202026-02-13%20112615.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 215528.png)
 
 
-![](Day4/Screenshot%202026-02-13%20085508.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 222704.png)
 
-![](Day4/Screenshot%202026-02-13%20101133.png)
 
-![](Day4/Screenshot%202026-02-13%20101631.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 225801.png)
+
 
 
 
@@ -595,13 +592,12 @@ terraform destroy
 
 # 📸 Screenshots
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20141404.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 233610.png)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20155754.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-13 144217.png)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20160634.png)
+![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-13 151904.png)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-14%20100116.png)
 
 ---
 
@@ -703,3 +699,4 @@ You should see the Apache default page or deployed web content.
 
 
 ---
+
