@@ -187,11 +187,11 @@ Container Port → 80
 📸 OUTPUT SCREENSHOTS
 ------------------------------------------------------------
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-13 230832.png)
+![](https://github.com/soumi04/devops/blob/main/Day2/Screenshot%202026-02-14%20000526.png)
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 000526.png)
+![](https://github.com/soumi04/devops/blob/main/Day2/Screenshot%202026-02-14%20001509.png)
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-14 001509.png)
+![](https://github.com/soumi04/devops/blob/main/Day2/Screenshot%202026-02-14%20094927.png)
 
 ---------------------------------------
 DEVOPS DAY 3
@@ -699,4 +699,5 @@ You should see the Apache default page or deployed web content.
 
 
 ---
+
 
