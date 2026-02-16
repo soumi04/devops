@@ -586,11 +586,11 @@ terraform destroy
 
 # 📸 Screenshots
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-15 233610.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-15%20233610.png?raw=true)
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-13 144217.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-13%20151904.png?raw=true)
 
-![](C:\Users\DELL\Pictures\Screenshots\Screenshot 2026-02-13 151904.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-13%20144217.png?raw=true)
 
 
 ---
@@ -693,6 +693,7 @@ You should see the Apache default page or deployed web content.
 
 
 ---
+
 
 
 
