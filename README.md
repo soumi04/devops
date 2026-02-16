@@ -302,15 +302,11 @@ Configuration and branch setup completed successfully.
 📸 OUTPUT SCREENSHOTS
 ------------------------------------------------------------
 
-![]()
+![](https://github.com/soumi04/devops/blob/main/Day3/docker_sample/Screenshot%202026-02-14%20090903.png?raw=true)
 
-![]()
+![](https://github.com/soumi04/devops/blob/main/Day3/docker_sample/Screenshot%202026-02-14%20091220.png?raw=true)
 
-![]()
-
-![]()
-
-![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20225801.png?raw=true)
+![](https://github.com/soumi04/devops/blob/main/Day3/docker_sample/Screenshot%202026-02-14%20091352.png?raw=true)
 
 
 # 🚀 DevOps Day 4 – Jenkins CI/CD with Docker
@@ -697,6 +693,7 @@ You should see the Apache default page or deployed web content.
 
 
 ---
+
 
 
 
