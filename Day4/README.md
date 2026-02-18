@@ -171,19 +171,18 @@ LEARNING OUTCOME
 📸 OUTPUT SCREENSHOTS
 ------------------------------------------------------------
 
-![](Day4/Screenshot%202026-02-13%20111709.png)
+![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20215256.png?raw=true)
 
-![](Day4/Screenshot%202026-02-13%20085223.png)
-
-
-![](Day4/Screenshot%202026-02-13%20112615.png)
+![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20215528.png?raw=true)
 
 
-![](Day4/Screenshot%202026-02-13%20085508.png)
+![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20220753.png?raw=true)
 
-![](Day4/Screenshot%202026-02-13%20101133.png)
 
-![](Day4/Screenshot%202026-02-13%20101631.png)
+![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20225801.png?raw=true)
+
+![](https://github.com/soumi04/devops/blob/main/Day4/Screenshot%202026-02-15%20232740.png?raw=true)
+
 
 
 
