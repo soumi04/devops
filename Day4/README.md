@@ -49,7 +49,7 @@ Copy the password and open browser:
 http://<server-ip>:8080
 
 Example:
-http://192.168.117.128:8080
+http://192.168.150.129:8080
 
 Install suggested plugins and create admin user.
 
