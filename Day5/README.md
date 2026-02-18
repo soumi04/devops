@@ -89,12 +89,13 @@ terraform destroy
 
 # 📸 Screenshots
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20141404.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-15%20233610.png?raw=true)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20155754.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-13%20151920.png?raw=true)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-13%20160634.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-13%20151904.png?raw=true)
 
-![](https://raw.githubusercontent.com/VARSHINI1805/devops/day-5/Day5/Screenshot%202026-02-14%20100116.png)
+![](https://github.com/soumi04/devops/blob/main/Day5/Screenshot%202026-02-13%20144217.png?raw=true)
 
 ---
+
